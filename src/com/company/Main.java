@@ -25,7 +25,7 @@ public class Main {
 
         int i = 31; {
             if (megas > 28000) {
-                consumo = (megas * 1.31 - 7000);
+                consumo = (megas * 1.40 - 7000);
                 System.out.println("El consumo diario es:" + consumo);
             } else {
                 consumo = (megas * 1.024 - 7000);
